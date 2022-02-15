@@ -1,8 +1,0 @@
-spring.cloud.stream.bindings.input:
-  destination: userClicksPerRegion
-  consumer:
-    useNativeEncoding: true
-spring.cloud.stream.kafka.binder.configuration.key:
-  deserializer: org.apache.kafka.common.serialization.StringDeserializer
-spring.cloud.stream.kafka.binder.configuration.value:
-  deserializer: org.apache.kafka.common.serialization.LongDeserializer
